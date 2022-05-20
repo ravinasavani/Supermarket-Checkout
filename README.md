@@ -7,7 +7,7 @@
 ![Checkout](https://github.com/ravinasavani/Virtusa-Test/blob/main/media/checkout.png)
 
 ### Testing
-To test please use the attached (phpunit.phar)[https://github.com/ravinasavani/Virtusa-Test/blob/main/phpunit.phar] with PHP version 8.
+To test please use the attached [phpunit.phar](https://github.com/ravinasavani/Virtusa-Test/blob/main/phpunit.phar) with PHP version 8.
 
 Use the command below:
 
