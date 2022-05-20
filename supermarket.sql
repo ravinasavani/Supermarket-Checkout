@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 18, 2022 at 07:40 PM
+-- Generation Time: May 20, 2022 at 03:20 PM
 -- Server version: 5.7.31
 -- PHP Version: 7.4.9
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `tbl_item` (
   `price` int(11) NOT NULL,
   `dependent_on` varchar(150) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_item`
@@ -50,7 +50,8 @@ INSERT INTO `tbl_item` (`id`, `name`, `qty`, `price`, `dependent_on`) VALUES
 (6, 'C', 2, 38, NULL),
 (7, 'C', 3, 58, NULL),
 (8, 'D', 1, 15, NULL),
-(9, 'D', 1, 5, 'A');
+(9, 'D', 1, 5, 'A'),
+(13, 'E', 1, 40, NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

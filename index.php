@@ -87,6 +87,6 @@ if (isset($_POST['CheckoutButton'])) {
         $checkoutTotal += $item->calculatePrice($_POST['item'][$i], $_POST['qty'][$i], $allItem);
     }
 }
-if (strstr($_SERVER['REQUEST_URI'], "index.php")) {
+if (isset($_SERVER['REQUEST_URI']) && strstr($_SERVER['REQUEST_URI'], "index.php")) {
     include('home.php');
 }
